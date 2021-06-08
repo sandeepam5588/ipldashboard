@@ -1,7 +1,7 @@
 import { React } from 'react'
 import { Link } from 'react-router-dom'
 
-import './MatchDetailCard.scss'
+import './MatchDetailCard.scss';
 
 export const MatchDetailCard = ({teamName, match}) => {
     if (!match) return null;
@@ -27,7 +27,7 @@ export const MatchDetailCard = ({teamName, match}) => {
             <h3>Man Of The Match</h3>
             <p>{match.playerOfMatch}</p>
             <h3>Umpires</h3>
-            <p>{match.umpire1},{match.umpire2}</p>
+            <p>{match.umpire1}, {match.umpire2}</p>
             </div>
         </div>
     );

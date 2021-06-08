@@ -31,7 +31,7 @@ export const TeamPage = () => {
         <PieChart
           data={[
             { title: "Losses", value: team.totalMatches - team.totalWins, color: "#a34d5d" },
-            { title: "Wins", value: team.totalWins, color: "##4da375" },
+            { title: "Wins", value: team.totalWins, color: "#4da375" },
           ]}
         />
       </div>
